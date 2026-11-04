@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://pustaka.xsrazy.web.id/sitemap.xml

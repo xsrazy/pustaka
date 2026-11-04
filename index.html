@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pustaka - Cari Jurnal dan Buku</title>
+<meta name="description" content="Perpustakaan digital untuk jurnal dan buku. Hasil selalu menautkan ke situs aslinya.">
+<link rel="canonical" href="https://pustaka.xsrazy.web.id/">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#f7f2e7">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Pustaka - Cari Jurnal dan Buku">
+<meta property="og:description" content="Perpustakaan digital untuk jurnal dan buku. Hasil selalu menautkan ke situs aslinya.">
+<meta property="og:url" content="https://pustaka.xsrazy.web.id/">
+<meta property="og:image" content="https://pustaka.xsrazy.web.id/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Pustaka - Cari Jurnal dan Buku">
+<meta name="twitter:description" content="Perpustakaan digital untuk jurnal dan buku. Hasil selalu menautkan ke situs aslinya.">
+<meta name="twitter:image" content="https://pustaka.xsrazy.web.id/og-image.jpg">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="stylesheet" href="/assets/styles.css">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebSite","name":"Pustaka","url":"https://pustaka.xsrazy.web.id/","inLanguage":"id","description":"Perpustakaan digital untuk jurnal dan buku. Hasil selalu menautkan ke situs aslinya."}
+</script>
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="#atas">
+    <svg class="brand-mark" viewBox="0 0 64 64" aria-hidden="true"><rect width="64" height="64" rx="14" fill="#1d5c46"/><path d="M32 17c-4-3-10-4-16-3v34c6-1 12 0 16 3 4-3 10-4 16-3V14c-6-1-12 0-16 3z" fill="none" stroke="#f7f2e7" stroke-width="3" stroke-linejoin="round"/><path d="M32 17v34" stroke="#c19a3d" stroke-width="3"/></svg>
+    <span class="brand-name">Pustaka</span>
+  </a>
+  <nav class="topnav">
+    <a href="#cari">Cari</a>
+    <a href="#direktori">Direktori</a>
+  </nav>
+  <span class="top-badge">6 sumber</span>
+</header>
+
+<main id="atas">
+  <section class="hero" id="cari">
+    <p class="eyebrow">Perpustakaan Digital</p>
+    <h1>Cari jurnal dan buku dari beberapa sumber sekaligus.</h1>
+    <p class="hero-sub">Hasil selalu menautkan ke situs aslinya.</p>
+    <form class="search-box" id="search-form" role="search">
+      <label class="sr-only" for="q">Kata kunci</label>
+      <input type="search" id="q" name="q" placeholder="Contoh: machine learning, sejarah Indonesia, python" autocomplete="off" minlength="2">
+      <button type="submit" id="search-btn">Cari</button>
+    </form>
+    <p class="search-hint">Minimal 2 karakter. Pencarian berjalan di 6 sumber resmi dan hasilnya dikelompokkan per sumber.</p>
+    <ul class="source-chips" aria-label="Sumber pencarian">
+      <li>Open Library</li>
+      <li>Crossref</li>
+      <li>DOAJ</li>
+      <li>LibriVox</li>
+      <li>Wikibooks</li>
+      <li>OpenAlex</li>
+    </ul>
+  </section>
+
+  <section class="results" id="hasil" aria-live="polite">
+    <h2>Hasil pencarian</h2>
+    <p class="results-status" id="results-status">Belum ada pencarian. Ketik kata kunci di atas, lalu tekan Cari.</p>
+    <div class="source-status" id="source-status" hidden></div>
+    <ol class="result-list" id="result-list"></ol>
+  </section>
+
+  <section class="directory" id="direktori">
+    <h2>Direktori Sumber</h2>
+    <p class="section-sub">Kumpulan situs jurnal, buku gratis, dan repositori yang bisa dibuka langsung. Setiap kartu menautkan ke situs aslinya.</p>
+    <form class="filter-box" id="filter-form">
+      <label class="sr-only" for="filter">Saring direktori</label>
+      <input type="search" id="filter" placeholder="Saring berdasarkan nama atau keterangan..." autocomplete="off">
+    </form>
+    <div id="directory-groups"></div>
+    <p class="directory-empty" id="directory-empty" hidden>Tidak ada sumber yang cocok dengan saringan itu.</p>
+  </section>
+</main>
+
+<footer class="footer">
+  <p>Data pencarian dari Open Library, Crossref, DOAJ, LibriVox, Wikibooks, dan OpenAlex. Setiap hasil menautkan ke situs aslinya.</p>
+  <p>Pustaka, 2026.</p>
+</footer>
+
+<noscript><p style="text-align:center;padding:16px">Pustaka butuh JavaScript untuk pencarian dan direktori.</p></noscript>
+<script src="/assets/app.js"></script>
+</body>
+</html>

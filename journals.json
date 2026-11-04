@@ -1,0 +1,270 @@
+[
+  {
+    "id": "journal-perpusnas-e-resources",
+    "name": "Perpusnas E-Resources",
+    "url": "https://e-resources.perpusnas.go.id/",
+    "group": "Jurnal Indonesia",
+    "status": "ok",
+    "note": "Official e-resources portal of the National Library of Indonesia.",
+    "api": null
+  },
+  {
+    "id": "journal-portal-garuda",
+    "hidden": true,
+    "name": "Portal Garuda",
+    "url": "https://garuda.kemdikbud.go.id/",
+    "group": "Jurnal Indonesia",
+    "status": "unconfirmed",
+    "note": "Indonesian journal portal. Reachability could not be confirmed in this check.",
+    "api": null
+  },
+  {
+    "id": "journal-moraref",
+    "name": "Moraref",
+    "url": "https://moraref.kemenag.go.id/",
+    "group": "Jurnal Indonesia",
+    "status": "ok",
+    "note": "Journal reference portal run by the Ministry of Religious Affairs.",
+    "api": null
+  },
+  {
+    "id": "journal-neliti",
+    "name": "Neliti",
+    "url": "https://www.neliti.com/",
+    "group": "Jurnal Indonesia",
+    "status": "ok",
+    "note": "Indonesian research repository with journals, books, and datasets.",
+    "api": null
+  },
+  {
+    "id": "journal-eureka-pendidikan",
+    "name": "Eureka Pendidikan",
+    "url": "https://eurekapendidikan.com/",
+    "group": "Jurnal Indonesia",
+    "status": "unconfirmed",
+    "note": "Education journal portal. The domain appears parked and the site could not be confirmed.",
+    "api": null
+  },
+  {
+    "id": "journal-google-scholar",
+    "name": "Google Scholar",
+    "url": "https://scholar.google.com/",
+    "group": "Jurnal Internasional",
+    "status": "ok",
+    "note": "Search scholarly literature across journals, theses, and books.",
+    "api": null
+  },
+  {
+    "id": "journal-doaj",
+    "name": "DOAJ",
+    "url": "https://doaj.org/",
+    "group": "Jurnal Internasional",
+    "status": "bot-blocked",
+    "note": "Directory of open access journals with a free article search API.",
+    "api": {
+      "source": "DOAJ API",
+      "note": "Free article and journal search, no key needed."
+    }
+  },
+  {
+    "id": "journal-academia-edu",
+    "name": "Academia.edu",
+    "url": "https://www.academia.edu/",
+    "group": "Jurnal Internasional",
+    "status": "ok",
+    "note": "Platform for sharing and discovering academic papers.",
+    "api": null
+  },
+  {
+    "id": "journal-wiley-online-library",
+    "name": "Wiley Online Library",
+    "url": "https://onlinelibrary.wiley.com/",
+    "group": "Jurnal Internasional",
+    "status": "bot-blocked",
+    "note": "Publisher platform for Wiley journals and books.",
+    "api": null
+  },
+  {
+    "id": "journal-sciencedirect",
+    "name": "ScienceDirect",
+    "url": "https://www.sciencedirect.com/",
+    "group": "Jurnal Internasional",
+    "status": "bot-blocked",
+    "note": "Publisher platform for Elsevier journals and books.",
+    "api": null
+  },
+  {
+    "id": "journal-jstor",
+    "name": "JSTOR",
+    "url": "https://www.jstor.org/",
+    "group": "Jurnal Internasional",
+    "status": "ok",
+    "note": "Digital library of academic journals, books, and primary sources.",
+    "api": null
+  },
+  {
+    "id": "journal-ieee-xplore",
+    "name": "IEEE Xplore",
+    "url": "https://ieeexplore.ieee.org/",
+    "group": "Jurnal Internasional",
+    "status": "bot-blocked",
+    "note": "Research database for engineering and technology literature.",
+    "api": null
+  },
+  {
+    "id": "journal-emerald-insight",
+    "name": "Emerald Insight",
+    "url": "https://www.emerald.com/insight/",
+    "group": "Jurnal Internasional",
+    "status": "bot-blocked",
+    "note": "Publisher platform for Emerald journals and books.",
+    "api": null
+  },
+  {
+    "id": "journal-researchgate",
+    "name": "ResearchGate",
+    "url": "https://www.researchgate.net/",
+    "group": "Jurnal Internasional",
+    "status": "ok",
+    "note": "Social network for researchers to share papers and ask questions.",
+    "api": null
+  },
+  {
+    "id": "journal-manybooks",
+    "name": "ManyBooks",
+    "url": "https://manybooks.net/",
+    "group": "Buku Gratis",
+    "status": "ok",
+    "note": "Free ebook library with classic and independent titles.",
+    "api": null
+  },
+  {
+    "id": "journal-librivox",
+    "name": "LibriVox",
+    "url": "https://librivox.org/",
+    "group": "Buku Gratis",
+    "status": "ok",
+    "note": "Free public domain audiobooks read by volunteers.",
+    "api": {
+      "source": "LibriVox API",
+      "note": "Free audiobook catalog feed, no key needed."
+    }
+  },
+  {
+    "id": "journal-project-gutenberg",
+    "name": "Project Gutenberg",
+    "url": "https://www.gutenberg.org/",
+    "group": "Buku Gratis",
+    "status": "ok",
+    "note": "Free ebooks of public domain works.",
+    "api": null
+  },
+  {
+    "id": "journal-open-library",
+    "name": "Open Library",
+    "url": "https://openlibrary.org/",
+    "group": "Buku Gratis",
+    "status": "ok",
+    "note": "Open library catalog with free book search and lending.",
+    "api": {
+      "source": "Open Library API",
+      "note": "Free book search, no key needed."
+    }
+  },
+  {
+    "id": "journal-freecomputerbooks",
+    "name": "FreeComputerBooks",
+    "url": "https://freecomputerbooks.com/",
+    "group": "Buku Gratis",
+    "status": "ok",
+    "note": "Free computer, programming, and mathematics books and tutorials.",
+    "api": null
+  },
+  {
+    "id": "journal-onlinecomputerbooks",
+    "hidden": true,
+    "name": "OnlineComputerBooks",
+    "url": "https://www.onlinecomputerbooks.com/",
+    "group": "Buku Gratis",
+    "status": "unconfirmed",
+    "note": "Free computer books directory. The domain appears parked and the site could not be confirmed.",
+    "api": null
+  },
+  {
+    "id": "journal-bookyards",
+    "hidden": true,
+    "name": "BookYards",
+    "url": "https://www.bookyards.com/",
+    "group": "Buku Gratis",
+    "status": "unconfirmed",
+    "note": "Free ebook site. Reachability could not be confirmed in this check.",
+    "api": null
+  },
+  {
+    "id": "journal-bookboon",
+    "name": "BookBoon",
+    "url": "https://bookboon.com/",
+    "group": "Buku Gratis",
+    "status": "ok",
+    "note": "Site now presents video-led professional development content.",
+    "api": null
+  },
+  {
+    "id": "journal-readprint",
+    "hidden": true,
+    "name": "ReadPrint",
+    "url": "https://www.readprint.com/",
+    "group": "Buku Gratis",
+    "status": "unconfirmed",
+    "note": "Online book library. Reachability could not be confirmed in this check.",
+    "api": null
+  },
+  {
+    "id": "journal-international-digital-children-s-library",
+    "name": "International Digital Children's Library",
+    "url": "https://www.childrenslibrary.org/",
+    "group": "Buku Gratis",
+    "status": "ok",
+    "note": "Digital library of children's books from around the world.",
+    "api": null
+  },
+  {
+    "id": "journal-oapen",
+    "name": "OAPEN",
+    "url": "https://oapen.org/",
+    "group": "Buku Gratis",
+    "status": "ok",
+    "note": "Open access library of academic books.",
+    "api": null
+  },
+  {
+    "id": "journal-scribd",
+    "name": "Scribd",
+    "url": "https://www.scribd.com/",
+    "group": "Repositori/Platform",
+    "status": "ok",
+    "note": "Document sharing platform with books, documents, and presentations.",
+    "api": null
+  },
+  {
+    "id": "journal-wikibooks",
+    "name": "WikiBooks",
+    "url": "https://en.wikibooks.org/",
+    "group": "Repositori/Platform",
+    "status": "ok",
+    "note": "Free open content textbooks written by volunteers.",
+    "api": {
+      "source": "Wikibooks API",
+      "note": "Free textbook search through the MediaWiki API, no key needed."
+    }
+  },
+  {
+    "id": "journal-slideshare",
+    "name": "SlideShare",
+    "url": "https://www.slideshare.net/",
+    "group": "Repositori/Platform",
+    "status": "ok",
+    "note": "Slide and presentation sharing platform.",
+    "api": null
+  }
+]
