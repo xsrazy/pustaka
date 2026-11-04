@@ -22,7 +22,7 @@ body {
 }
 
 h1, h2, .brand-name {
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
   line-height: 1.2;
 }
 
@@ -197,7 +197,7 @@ button:focus-visible, a:focus-visible {
 }
 
 .result-title {
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
   font-size: 19px;
   font-weight: bold;
   line-height: 1.35;
@@ -270,8 +270,7 @@ button:focus-visible, a:focus-visible {
 
 @media (max-width: 640px) {
   .hero h1 { font-size: 33px; }
-  .search-box { flex-direction: column; }
-  .search-box button { width: 100%; }
+  .search-box button { padding: 12px 20px; }
   .topnav { display: none; }
   main { padding: 0 16px 40px; }
 }
